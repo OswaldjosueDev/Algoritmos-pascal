@@ -20,3 +20,29 @@ En desarrollo. Este repositorio será actualizado progresivamente con nuevos eje
 ## Autor
 
 Oswald Josué Figueroa Perozo
+
+## Progreso de ejercicios
+
+### 🟢 Nivel básico
+
+- [x] Sumar dos números
+- [ ] Número par o impar
+- [ ] Mayor entre dos números
+
+### 🟡 Nivel intermedio
+
+- [ ] Mayor entre tres números
+- [ ] Tabla de multiplicar
+- [ ] Promedio de N notas
+
+### 🟠 Nivel avanzado
+
+- [ ] Calculadora con menú
+- [ ] Contar positivos y negativos
+- [ ] Validación de división por cero
+
+### 🔴 Nivel desafío
+
+- [ ] Calculadora con historial
+- [ ] Calculadora acumulativa
+- [ ] Caja registradora
