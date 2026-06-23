@@ -27,7 +27,7 @@ Oswald Josué Figueroa Perozo
 
 - [x] Sumar dos números
 - [x] Número par o impar
-- [ ] Mayor entre dos números
+- [x] Mayor entre dos números
 
 ### 🟡 Nivel intermedio
 
