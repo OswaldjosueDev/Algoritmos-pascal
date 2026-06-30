@@ -33,7 +33,7 @@ Oswald Josué Figueroa Perozo
 
 - [x] Mayor entre tres números
 - [x] Tabla de multiplicar
-- [ ] Promedio de N notas
+- [x] Promedio de N notas
 
 ### 🟠 Nivel avanzado
 
