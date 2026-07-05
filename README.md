@@ -37,7 +37,7 @@ Oswald Josué Figueroa Perozo
 
 ### 🟠 Nivel avanzado
 
-- [ ] Calculadora con menú
+- [x] Calculadora con menú
 - [ ] Contar positivos y negativos
 - [ ] Validación de división por cero
 
