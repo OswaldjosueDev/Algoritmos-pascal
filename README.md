@@ -1,48 +1,70 @@
-# Algoritmos Pascal
+# Algoritmos en Pascal
 
-Repositorio dedicado a ejercicios y prácticas desarrolladas en Turbo Pascal como parte de mi proceso de aprendizaje en lógica de programación y algoritmos.
+Repositorio donde documento mi proceso de aprendizaje de lógica de programación utilizando Free Pascal.
 
-## Objetivos
+## 🎯 Objetivo
 
-* Fortalecer el pensamiento lógico.
-* Practicar estructuras de control.
-* Resolver problemas mediante algoritmos.
-* Construir una base sólida para el aprendizaje de otros lenguajes de programación.
+Fortalecer mi lógica de programación mediante la resolución progresiva de ejercicios, aplicando buenas prácticas y construyendo una base sólida antes de continuar con otros lenguajes como JavaScript y React.
 
-## Tecnologías utilizadas
+---
 
-* Turbo Pascal
+# 📚 Contenido
 
-## Estado del proyecto
+## 🟢 Nivel Básico
 
-En desarrollo. Este repositorio será actualizado progresivamente con nuevos ejercicios y soluciones.
+- ✅ Suma de dos números
+- ✅ Número par o impar
+- ✅ Mayor entre dos números
 
-## Autor
+---
 
-Oswald Josué Figueroa Perozo
+## 🟡 Nivel Intermedio
 
-## Progreso de ejercicios
+- ✅ Mayor entre tres números
+- ✅ Tabla de multiplicar
+- ✅ Promedio de N notas
 
-### 🟢 Nivel básico
+---
 
-- [x] Sumar dos números
-- [x] Número par o impar
-- [x] Mayor entre dos números
+## 🟠 Nivel Avanzado
 
-### 🟡 Nivel intermedio
+- ✅ Calculadora con menú (CASE + REPEAT...UNTIL)
 
-- [x] Mayor entre tres números
-- [x] Tabla de multiplicar
-- [x] Promedio de N notas
+---
 
-### 🟠 Nivel avanzado
+## 💻 Tecnologías utilizadas
 
-- [x] Calculadora con menú
-- [ ] Contar positivos y negativos
-- [ ] Validación de división por cero
+- Free Pascal
+- Turbo Pascal
+- Git
+- GitHub
 
-### 🔴 Nivel desafío
+---
 
-- [ ] Calculadora con historial
-- [ ] Calculadora acumulativa
-- [ ] Caja registradora
+## 🧠 Conceptos aprendidos
+
+- Variables
+- Operadores aritméticos
+- IF...ELSE
+- CASE OF
+- FOR
+- REPEAT...UNTIL
+- Validación de datos
+- Entrada y salida por consola
+
+---
+
+## 🚀 Próximos ejercicios
+
+- Contador de números positivos y negativos
+- Validación de entrada
+- Calculadora con historial
+- Caja registradora
+
+---
+
+## 👨‍💻 Autor
+
+**Oswald Josué Figueroa Perozo**
+
+Aprendiz de Desarrollo de Software enfocado en fortalecer la lógica de programación y construir un portafolio sólido de proyectos.
