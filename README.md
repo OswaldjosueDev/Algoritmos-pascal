@@ -68,3 +68,11 @@ Fortalecer mi lógica de programación mediante la resolución progresiva de eje
 **Oswald Josué Figueroa Perozo**
 
 Aprendiz de Desarrollo de Software enfocado en fortalecer la lógica de programación y construir un portafolio sólido de proyectos.
+
+---
+
+## 📅 Última actualización
+
+- Se configuró Git localmente.
+- Se clonó el repositorio desde GitHub.
+- Se comenzó el flujo profesional de trabajo con Git.
