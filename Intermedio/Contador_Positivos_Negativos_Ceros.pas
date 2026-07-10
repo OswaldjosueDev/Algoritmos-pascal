@@ -17,7 +17,7 @@ Begin
   writeln;
 
 
-  Writeln('¨Cuantos numeros quiere ingresar?');
+  Writeln('Â¿Cuantos numeros quiere ingresar?');
   Readln(CantidadNumeros);
 
   positivos := 0;
