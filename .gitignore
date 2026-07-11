@@ -1,0 +1,6 @@
+# Archivos de respaldo de Pascal
+*.bak
+
+# Archivos de compilación y ejecutables
+*.exe
+*.o

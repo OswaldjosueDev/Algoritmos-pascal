@@ -1,52 +1,39 @@
-Program ContadorPositivoNegativo;
+Program TablaDeMultiplicar;
 
 uses crt;
 
 Var
 
- CantidadNumeros, Contador : Integer;
- numero : Real;
- Positivos, negativos, ceros : Integer;
+ Contador, Numero, Resultado : Integer;
 
 Begin
   clrscr;
 
   writeln('==================================================');
-  writeln('CONTADOR DE NUMEROS POSITIVOS, NEGATIVOS Y CEROS.');
+  writeln('            TABLA DE MULTIPLICAR.');
   writeln('==================================================');
   writeln;
 
+  Write('Ingrese el numero que desea multiplicar: ');
+  Readln(Numero);
 
-  Writeln('¿Cuantos numeros quiere ingresar?');
-  Readln(CantidadNumeros);
+  Writeln;
+  Writeln('========================');
+  Writeln('TABLA DEL (',Numero,'): ');
+  Writeln('========================');
+  writeln;
 
-  positivos := 0;
-  negativos := 0;
-  ceros := 0;
-
-  For contador := 1 to CantidadNumeros do
+  For contador := 1 to 10 do
   begin
-   Write('Ingrese un numero [',contador,']: ');
-   Readln(numero);
+   Resultado := Numero * contador;
 
-  If numero > 0 then
-    positivos := positivos + 1
-  else if numero < 0 then
-    negativos := negativos + 1
-  else
-    ceros := ceros + 1
+   Writeln(Numero, 'x',Contador, '=', Resultado);
   end;
 
-  writeln;
-  writeln('======================================');
-  writeln('       RESULTADO FINAL');
-  writeln('======================================');
-  writeln('Total de Positivos: ', positivos);
-  writeln('Total de Negativos: ', negativos);
-  writeln('Total de Ceros: ', ceros );
-  writeln('======================================');
+  Writeln;
+  Writeln('========================');
+  Writeln(' FIN DEL PROGRAMA');
+  Writeln('========================');
 
-  writeln;
-  write('Presione Enter para Salir...');
   Readln;
 End.

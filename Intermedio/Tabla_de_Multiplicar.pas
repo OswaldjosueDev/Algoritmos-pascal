@@ -1,31 +1,39 @@
-Program multiply;
+Program TablaDeMultiplicar;
 
 uses crt;
 
 Var
 
-  Numero, Multiplo, Resultado: Integer;
+ Contador, Numero, Resultado : Integer;
 
 Begin
-
   clrscr;
 
-  writeln('=====================================');
-  writeln('       TABLA DE MULTIPLICAR          ');
-  writeln('=====================================');
+  writeln('==================================================');
+  writeln('            TABLA DE MULTIPLICAR.');
+  writeln('==================================================');
   writeln;
 
+  Write('Ingrese el numero que desea multiplicar: ');
+  Readln(Numero);
 
-  Writeln('ingrese el numero que quire multiplicar: ');
-  Readln(numero);
+  Writeln;
+  Writeln('========================');
+  Writeln('TABLA DEL (',Numero,'): ');
+  Writeln('========================');
+  writeln;
 
-  for multiplo := 1 to 10 do
-  Begin
-    Resultado := numero * multiplo;
+  For contador := 1 to 10 do
+  begin
+   Resultado := Numero * contador;
 
-    Writeln(numero, ' x ', multiplo, ' = ', resultado);
+   Writeln(Numero, 'x',Contador, '=', Resultado);
   end;
-  readln;
 
+  Writeln;
+  Writeln('========================');
+  Writeln(' FIN DEL PROGRAMA');
+  Writeln('========================');
+
+  Readln;
 End.
-
