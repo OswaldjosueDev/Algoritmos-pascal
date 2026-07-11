@@ -1,39 +1,44 @@
-Program TablaDeMultiplicar;
+Program ContadorPositivosNegativosCeros;
 
 uses crt;
 
 Var
-
- Contador, Numero, Resultado : Integer;
+   Contador, Numero, N, Positivos, Negativos, Ceros : Integer;
 
 Begin
-  clrscr;
+   clrscr;
+   Positivos := 0;
+   Negativos := 0;
+   Ceros := 0;
 
-  writeln('==================================================');
-  writeln('            TABLA DE MULTIPLICAR.');
-  writeln('==================================================');
-  writeln;
+   Writeln('===================================================');
+   Writeln('       CONTADOR DE POSITIVOS, NEGATIVOS Y CEROS    ');
+   Writeln('===================================================');
+   Writeln;
 
-  Write('Ingrese el numero que desea multiplicar: ');
-  Readln(Numero);
+   Write('¿Cuantos numeros desea evaluar?: ');
+   Readln(N);
 
-  Writeln;
-  Writeln('========================');
-  Writeln('TABLA DEL (',Numero,'): ');
-  Writeln('========================');
-  writeln;
+   For Contador := 1 to N do
+   begin
+      Write('Ingrese el numero ', Contador, ': ');
+      Readln(Numero);
 
-  For contador := 1 to 10 do
-  begin
-   Resultado := Numero * contador;
+      if Numero > 0 then
+         Positivos := Positivos + 1
+      else if Numero < 0 then
+         Negativos := Negativos + 1
+      else
+         Ceros := Ceros + 1;
+   end;
 
-   Writeln(Numero, 'x',Contador, '=', Resultado);
-  end;
-
-  Writeln;
-  Writeln('========================');
-  Writeln(' FIN DEL PROGRAMA');
-  Writeln('========================');
-
-  Readln;
+   Writeln;
+   Writeln('===================================================');
+   Writeln('RESULTADOS:');
+   Writeln('Numeros Positivos: ', Positivos);
+   Writeln('Numeros Negativos: ', Negativos);
+   Writeln('Cantidad de Ceros: ', Ceros);
+   Writeln('===================================================');
+   
+   Readln;
 End.
