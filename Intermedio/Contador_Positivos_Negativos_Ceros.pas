@@ -16,7 +16,7 @@ Begin
    Writeln('===================================================');
    Writeln;
 
-   Write('Â¿Cuantos numeros desea evaluar?: ');
+   Write('¨Cuantos numeros desea evaluar?: ');
    Readln(N);
 
    For Contador := 1 to N do
@@ -39,6 +39,6 @@ Begin
    Writeln('Numeros Negativos: ', Negativos);
    Writeln('Cantidad de Ceros: ', Ceros);
    Writeln('===================================================');
-   
+
    Readln;
 End.
