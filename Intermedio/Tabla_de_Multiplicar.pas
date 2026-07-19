@@ -32,7 +32,7 @@ Begin
 
   Writeln;
   Writeln('========================');
-  Writeln(' FIN DEL PROGRAMA');
+  Writeln(' Programa Finalizado');
   Writeln('========================');
 
   Readln;
